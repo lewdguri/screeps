@@ -1,12 +1,12 @@
-var roleHarvester = require('./roles/role.harvester');
-var roleUpgrader = require('./roles/role.upgrader');
-var roleBuilder = require('./roles/role.builder');
-var roleRepairer = require('./roles/role.repairer');
-var roleGuard = require('./roles/role.guard');
-var roleHauler = require('./roles/role.hauler');
-var creepSpawner = require('./other/creepSpawner');
-var towers = require('./other/towers');
-var roleMiner = require('./roles/role.miner');
+var roleHarvester = require('role.harvester');
+var roleUpgrader = require('role.upgrader');
+var roleBuilder = require('role.builder');
+var roleRepairer = require('role.repairer');
+var roleGuard = require('role.guard');
+var roleHauler = require('role.hauler');
+var creepSpawner = require('creepSpawner');
+var towers = require('towers');
+var roleMiner = require('role.miner');
 
 module.exports.loop = function () {
 
